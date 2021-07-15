@@ -1,0 +1,13 @@
+#currency converter
+         
+           #USD TO INR
+
+usd=float(input("enter the currency in USD :"))
+inr=usd*74.54
+print("the currency in INR is:",inr)
+
+           #INR TO USD
+    
+inr=float(input("enter the currency in INR:"))
+usd=inr/74.54
+print("the currency in USD is:",usd)
